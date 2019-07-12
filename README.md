@@ -2,15 +2,14 @@
 
 # meta_analysis_supplementary_material
 
-## data_source
-It contains the data from the selected publications in 7 spreedsheets as:
-* data_source: Selected publications with detailed information about: source, model caracteristic, intervention type, macro-indicators,                  geographical and temporal dimension, and method/data transparency
+## data_source.xlsx
+Excel file contains the collected data for the meta-analysis. It includes 6 spreedsheets as:
+* data_source: Selected publications with detailed information about: source, model caracteristic, intervention type, macro-indicators, geographical and temporal dimension, and method/data transparency
 * gdp: Range of projections for GDP scenarios per study
 * job: Range of projections for job creation scenarios per study
 * co2: Range of projections for CO2 emissions scenarios per study
 * figure_1: A flowchart  of the inclusion of selected publications, and specific queries used in the systematic review
 * table_1: Overview of models used by the selected 28 publications
-
 
 ## time_ser.py
 Phyton script retrieves the time series of changes in GDP, job creation ,and CO2 emissions respect to BAU scenarios from 2020 to 2050, per scenario category. This module contains:
