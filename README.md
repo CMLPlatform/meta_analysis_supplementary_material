@@ -32,7 +32,7 @@ Phyton script retrieves the correlation analysis of changes in GDP, job creation
 * ***save()***: Saves dataframes from ***main()*** in an Excel file
 
 ## results_time_ser.xlsx
-Excel file with the summary of results from ***time_ser.py***
+Excel file contains the summary of results from ***time_ser.py***
 
 ## results_corr.xlsx
-Excel file with the summary of results from ***corr.py***
+Excel file contains the summary of results from ***corr.py***
