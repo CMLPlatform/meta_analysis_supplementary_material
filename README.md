@@ -14,14 +14,14 @@ Excel file contains the collected data for the meta-analysis. It includes 6 spre
 ## time_ser.py
 Phyton script retrieves the time series of changes in GDP, job creation ,and CO2 emissions respect to BAU scenarios from 2020 to 2050, per scenario category. This module contains:
 * ***main()***: Loads data source and runs ***scenario(data, title)*** function
-* ***scenario(data, title)***: Retrieves  graphs and dataframes for the time series of scenarios per study. Inputs: data=dataset for specific indicator as pandas dataframe; title= text as string)
+* ***scenario(data, title)***: Retrieves  graphs and dataframes for the time series of scenarios per study. Inputs: data=dataset for specific indicator as pandas dataframe; title= text as string
 * ***mean(df, scen_type)***: Retrieves mean values and statistcal summary for a specific scenario type. Inputs: df=dataset for specific indicator as pandas dataframe; scen_type= 'amb' or 'mod' as string
 * save(): Saves dataframes from ***main()*** in an Excel file
 
 ## boxplot.py
 Phyton script retrieves the boxplot of changes in GDP, job creation ,and CO2 emissions respect to BAU, per year and scenario category. This module contains:
-* ****main()***: Loads data source and runs ***boxplot(data, year, title)*** function
-* ****boxplot(data, year, title)***: Retrieves boxplot graphs from the statistical analysis. Inputs: data=dataset for specific indicator as pandas dataframe; year= specific year as integer; title= text as string
+* ***main()***: Loads data source and runs ***boxplot(data, year, title)*** function
+* ***boxplot(data, year, title)***: Retrieves boxplot graphs from the statistical analysis. Inputs: data=dataset for specific indicator as pandas dataframe; year= specific year as integer; title= text as string
 * ***group(df, group_name, degree, title)***: Retrieves mean values and statistcal summary for a specific group region. Inputs: df=dataset for specific indicator as pandas dataframe; group_name= country/region group name as list; title= text as string
 
 ## corr.py
